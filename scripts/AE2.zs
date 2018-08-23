@@ -1,4 +1,5 @@
 //Created by kojin15
+//Original repo https://github.com/GregTechModPack/GregTechExpertMCEModPack
 //Fix by Tier
 
 
