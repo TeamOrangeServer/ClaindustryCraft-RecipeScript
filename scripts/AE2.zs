@@ -1,8 +1,6 @@
 //Created by kojin15
-//Original repo https://github.com/GregTechModPack/GregTechExpertMCEModPack
+//Original repo https://github.com/GregTechModPack/GregTechExpertMCEModPack  
 //Fix by Tier
-
-
 
 // --- Importing
 import mods.nei.NEI;
@@ -272,9 +270,9 @@ recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:38>);
 
 // --- Sky Stone
 recipes.addShaped(SkyStone, [
-    [<Avaritia:Resource:2>, <minecraft:stone>, <Avaritia:Resource:2>],
-    [<minecraft:stone>, <Avaritia:Resource:2>, <minecraft:stone>],
-    [<Avaritia:Resource:2>, <minecraft:stone>, <Avaritia:Resource:2>]
+    [<clayium:blockClayTreeLog>, <minecraft:stone>, <clayium:blockClayTreeLog>],
+    [<minecraft:stone>, <clayium:blockClayTreeLog>, <minecraft:stone>],
+    [<clayium:blockClayTreeLog>, <minecraft:stone>, <clayium:blockClayTreeLog>]
 ]);
 
 // --- ME Controller
@@ -492,7 +490,7 @@ recipes.addShapeless(QuartzFixture, [CertusQuartz, ALRod]);
 recipes.addShapeless(LightDetector, [CCertusQuartz, IronRod]); 
 
 // --- Tiny TNT
-Centrifuge.addRecipe([TinyTNT, TinyTNT], ITNT, 0, 600);
+//Centrifuge.addRecipe([TinyTNT, TinyTNT], ITNT, 0, 600);
 
 
 // ||||| Cells |||||
@@ -975,13 +973,13 @@ recipes.addShaped(<appliedenergistics2:item.ToolBiometricCard>, [
 [<ore:plateGold>, <ore:plateRedAlloy>, <ore:plateGold>],[null, null, null]]);
 
 //Quartz Glass
-AlloySmelter.addRecipe(QuartzGlass * 4, <minecraft:glass> * 4, <gregtech:gt.metaitem.01:2516> * 4, 400, 16);
+//AlloySmelter.addRecipe(QuartzGlass * 4, <minecraft:glass> * 4, <gregtech:gt.metaitem.01:2516> * 4, 400, 16);
 
 //Quartz Fiber
-Wiremill.addRecipe(QuartzFiber, <gregtech:gt.metaitem.01:23516> * 2, 200, 128);
-Wiremill.addRecipe(QuartzFiber, <gregtech:gt.metaitem.01:23517> * 1, 200, 128);
-Wiremill.addRecipe(QuartzFiber, <gregtech:gt.metaitem.01:23522> * 8, 200, 128);
-Wiremill.addRecipe(QuartzFiber, <gregtech:gt.metaitem.01:23523>  * 4, 200, 128);
+//Wiremill.addRecipe(QuartzFiber, <gregtech:gt.metaitem.01:23516> * 2, 200, 128);
+//Wiremill.addRecipe(QuartzFiber, <gregtech:gt.metaitem.01:23517> * 1, 200, 128);
+//Wiremill.addRecipe(QuartzFiber, <gregtech:gt.metaitem.01:23522> * 8, 200, 128);
+//Wiremill.addRecipe(QuartzFiber, <gregtech:gt.metaitem.01:23523>  * 4, 200, 128);
 
 // --- Recycle UStorageHousing
 mods.gregtech.Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2523>, <gregtech:gt.metaitem.01:2522>, <gregtech:gt.metaitem.01:2523>, <gregtech:gt.metaitem.01:2522>],
